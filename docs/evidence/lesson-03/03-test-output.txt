@@ -1,0 +1,2 @@
+Source verified: A2UI v0.9.1 is the current production release; v1.0 is candidate.
+Local validation/tests are implemented for all three lessons. Lesson 03.3 official Lit renderer integration is BLOCKED pending package/host setup; no renderer pass is claimed.
