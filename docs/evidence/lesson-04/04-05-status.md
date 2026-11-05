@@ -1,0 +1,1 @@
+OpenUI Lang and json-render lessons have offline educational implementations and tests. Official OpenUI/json-render package renderers remain BLOCKED pending package installation and host verification.

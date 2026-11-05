@@ -1,0 +1,1 @@
+OpenUI Lang 04.1–04.4, json-render 05.1–05.3, and MCP Apps 06.1–06.3 offline tests passed individually. Official package/visual-host integrations are explicitly BLOCKED where documented in lesson READMEs.

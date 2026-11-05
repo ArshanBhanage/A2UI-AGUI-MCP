@@ -1,0 +1,1 @@
+MCP Apps lessons include offline `ui://` resource, bridge allowlist, host classification, and nested routing tests. Official ext-apps visual-host integration is BLOCKED because no visual MCP host is configured.
