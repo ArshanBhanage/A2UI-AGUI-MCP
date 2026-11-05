@@ -1,0 +1,19 @@
+1
+00:00:00,000 --> 00:00:04,000
+GenUX lesson 01.1 — Static components.
+
+2
+00:00:04,000 --> 00:00:15,000
+The agent selects trusted components and supplies props; the application owns layout.
+
+3
+00:00:15,000 --> 00:00:27,000
+This is the actual catalog source and the real test command.
+
+4
+00:00:27,000 --> 00:00:45,000
+The local FastAPI page runs an explicitly labeled offline fixture through SSE.
+
+5
+00:00:45,000 --> 00:01:00,000
+This is genuine local execution, but it is not a live model call.
