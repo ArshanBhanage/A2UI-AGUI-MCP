@@ -1,0 +1,8 @@
+$ python3 -m pytest genui/02_ag_ui/step_01_ag_ui_server/test_events.py
+3 passed
+$ python3 -m pytest genui/02_ag_ui/step_02_ag_ui_tools_and_state/test_state.py
+3 passed
+$ python3 -m pytest genui/02_ag_ui/step_03_ag_ui_from_the_harness/test_bridge.py
+2 passed
+
+All three demos are deterministic offline educational fixtures. No official SDK or live harness integration is claimed.
