@@ -1,0 +1,6 @@
+$ python3 -m pytest genui/01_foundations/step_02_declarative_tree/test_step.py
+3 passed
+$ python3 genui/01_foundations/step_02_declarative_tree/demo.py
+partial= False
+partial= True
+validated declarative tree: {"type": "Stack", "props": {"direction": "column"}, "children": [{"type": "Metric", "props": {"title": "Open issues", "value": "12"}}]}

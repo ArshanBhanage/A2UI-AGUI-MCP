@@ -10,5 +10,6 @@ Lesson submilestones:
 
 | Lesson | A research | B implementation | C tests | D execution | E recording | F docs/commit |
 |---|---|---|---|---|---|---|
-| 01.1 | PASSED | IN_PROGRESS | IN_PROGRESS | IN_PROGRESS | NOT_STARTED | IN_PROGRESS |
+| 01.1 | PASSED | PASSED | PASSED | PASSED | VALIDATED | PASSED |
+| 01.2 | PASSED | PASSED | PASSED | PASSED | NOT_STARTED | IN_PROGRESS |
 
