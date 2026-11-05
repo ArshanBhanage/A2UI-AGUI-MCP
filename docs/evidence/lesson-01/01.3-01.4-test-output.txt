@@ -1,0 +1,4 @@
+$ python3 -m pytest genui/01_foundations/step_03_open_ended_html/test_step.py
+3 passed
+$ python3 -m pytest genui/01_foundations/step_04_hybrid_escape_hatch/test_step.py
+3 passed
