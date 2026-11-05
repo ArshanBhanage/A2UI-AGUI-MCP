@@ -1,0 +1,10 @@
+$ python3 -m pytest genui/01_foundations/step_01_static_components/test_step.py
+4 passed
+$ node --test genui/01_foundations/step_01_static_components/tests/render.test.mjs
+2 passed
+$ python3 genui/01_foundations/step_01_static_components/demo.py --offline
+mode: OFFLINE FIXTURE (not a live agent run)
+3 SSE messages:
+  {"component": "Metric", "props": {"title": "Open issues", "value": "12", "delta": "-2"}}
+  {"component": "Chart", "props": {"kind": "bar", "labels": ["Mon", "Tue"], "values": [8, 12]}}
+  {"done": true, "prompt_tokens": 0, "completion_tokens": 0}

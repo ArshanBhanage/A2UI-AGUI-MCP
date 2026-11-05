@@ -1,0 +1,2 @@
+{"name":"genux-protocols-codelab-suite","private":true,"type":"module","scripts":{"test:lesson-01-1":"node --test genui/01_foundations/step_01_static_components/tests/render.test.mjs"}}
+

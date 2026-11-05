@@ -1,0 +1,9 @@
+[project]
+name = "genux-protocols-codelab-suite"
+version = "0.1.0"
+requires-python = ">=3.9"
+dependencies = ["fastapi>=0.123,<0.124", "uvicorn>=0.38,<0.39", "pytest>=8.4,<9", "httpx>=0.28,<0.29"]
+
+[tool.pytest.ini_options]
+testpaths = ["genui", "tests"]
+

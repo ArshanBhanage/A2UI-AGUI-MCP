@@ -1,0 +1,6 @@
+import {render} from './render.mjs';
+const dashboard=document.querySelector('#dashboard'), wire=document.querySelector('#wire'), form=document.querySelector('#run-form');
+window.__events=[];
+async function* readSSE(response){let buffer=''; for await(const chunk of response.body){buffer+=new TextDecoder().decode(chunk); const frames=buffer.replaceAll('\r\n','\n').split('\n\n'); buffer=frames.pop(); for(const frame of frames){const line=frame.split('\n').find(x=>x.startsWith('data: ')); if(line) yield JSON.parse(line.slice(6));}}}
+form.addEventListener('submit', async e=>{e.preventDefault(); document.body.dataset.state='running'; dashboard.replaceChildren(); wire.textContent=''; try {const response=await fetch('/api/run',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({prompt:document.querySelector('#prompt').value})}); if(!response.ok) throw new Error(`${response.status}`); for await(const message of readSSE(response)){window.__events.push(message); wire.textContent+=JSON.stringify(message)+'\n'; if(message.component) dashboard.insertAdjacentHTML('beforeend',render(message.component,message.props));} } catch(error){const message={done:true,error:String(error.message??error)}; window.__events.push(message); wire.textContent+=JSON.stringify(message); } finally {document.body.dataset.state='done';}});
+
