@@ -1,0 +1,4 @@
+`node scripts/smoke_official_packages.mjs` verified exports from:
+- @openuidev/react-lang@1.1.0
+- @json-render/core@0.22.0
+- @modelcontextprotocol/ext-apps@2.0.4
