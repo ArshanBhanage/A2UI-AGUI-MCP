@@ -6,4 +6,5 @@ dependencies = ["fastapi>=0.123,<0.124", "uvicorn>=0.38,<0.39", "pytest>=8.4,<9"
 
 [tool.pytest.ini_options]
 testpaths = ["genui", "tests"]
+addopts = "--import-mode=importlib"
 
