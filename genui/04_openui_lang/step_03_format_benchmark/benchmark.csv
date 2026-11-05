@@ -1,0 +1,8 @@
+scenario,openui_chars,yaml_chars,json_chars,latency
+metric,22,13,17,ESTIMATE_ONLY
+table,21,12,17,ESTIMATE_ONLY
+chart,21,12,17,ESTIMATE_ONLY
+form,20,11,17,ESTIMATE_ONLY
+dashboard,25,16,17,ESTIMATE_ONLY
+issues,22,13,17,ESTIMATE_ONLY
+hybrid,22,13,17,ESTIMATE_ONLY
