@@ -1,0 +1,19 @@
+1
+00:00:00,000 --> 00:00:07,000
+This is the complete GenUX lesson 01.1 demo.
+
+2
+00:00:07,000 --> 00:00:14,000
+In static generation, the agent selects trusted components and the application owns the layout.
+
+3
+00:00:14,000 --> 00:00:22,000
+The real local FastAPI endpoint returns an SSE stream using an explicitly labeled offline fixture.
+
+4
+00:00:22,000 --> 00:00:29,000
+The metric and chart render, followed by the terminal done frame in the wire panel.
+
+5
+00:00:29,000 --> 00:00:34,000
+This is genuine local execution, not a live model call. Demo complete.

@@ -10,3 +10,11 @@
 - Voice: clearly labeled synthetic macOS TTS; replace with student narration if required by the course.
 - Representative frame review: title/source/test/application footage present; no black-only output observed.
 - YouTube: not uploaded; user will perform upload.
+
+## Additional complete demo
+
+- Output: `recordings/demo-lesson-01-1-static-components.mp4`.
+- Purpose: demo-only capture, separate from the compact walkthrough.
+- ffprobe: H.264 video, AAC audio, 1280x720, 34.04 seconds.
+- SHA-256: `35cb1beb43c6324300f8c2eab9a065baf0bd79e5cbaaefa89b4f483ef2c857b1`.
+- Final-frame review shows an explicit `Demo complete` card with the offline-fixture disclosure.

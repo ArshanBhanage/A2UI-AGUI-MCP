@@ -14,3 +14,5 @@ mode: OFFLINE FIXTURE (not a live agent run)
 
 This is deterministic offline evidence, not proof of provider availability.
 
+Complete demo video: `recordings/demo-lesson-01-1-static-components.mp4` (34.04 seconds). The shorter walkthrough capture is separate: `recordings/lesson-01-1-static-components.mp4`.
+
