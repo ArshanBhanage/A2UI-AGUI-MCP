@@ -1,2 +1,1 @@
-{"name":"genux-protocols-codelab-suite","private":true,"type":"module","scripts":{"test:lesson-01-1":"node --test genui/01_foundations/step_01_static_components/tests/render.test.mjs"}}
-
+{"name":"genux-protocols-codelab-suite","private":true,"type":"module","scripts":{"test:lesson-01-1":"node --test genui/01_foundations/step_01_static_components/tests/render.test.mjs"},"devDependencies":{"@json-render/core":"^0.22.0","@json-render/react":"^0.22.0","@modelcontextprotocol/ext-apps":"^2.0.4","@openuidev/react-lang":"^1.1.0","react":"^19.2.3","react-dom":"^19.2.3","typescript":"^5.9.3","zod":"^4.6.7"}}
