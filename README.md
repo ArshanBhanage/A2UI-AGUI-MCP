@@ -16,3 +16,10 @@ The combined video provides a preliminary review of the existing examples. Compl
 
 Based on [simple-coding-harness/genui](https://github.com/dlmastery/simple-coding-harness/tree/main/genui).
 
+# Assignment video
+
+Youtube video: [recordings/assignment-4-review.mp4](https://youtu.be/6wOh6T19nbs)
+
+A single compilation of the existing lesson clips with synthetic narration.
+
+
